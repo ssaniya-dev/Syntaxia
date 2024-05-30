@@ -1,1 +1,1 @@
-gcc main.c -o main -Wall -Wextra
+g++ main.cpp lexer.cpp parser.cpp generation.cpp hashmap/operations.cpp -o build/syn -Wall -Wextra
